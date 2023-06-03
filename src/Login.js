@@ -4,6 +4,7 @@ import img from './img/logo.png'
 import face from './img/Facebook_Logo_(2019) 1.png'
 import google from './img/image-removebg-preview (4) 2.png'
 import kotta from './img/image 22.png'
+import kotta2 from './img/image 22 (1).png'
 export default class Login extends Component {
   state={
     data:"salom",
@@ -18,9 +19,10 @@ export default class Login extends Component {
   render() {
     return (
       <div className="asosiy">
-        <div className="logo">
-            <img src={img} alt="" className='logotip' />
-            <img src={kotta} alt=""className='katta' />
+        <div className="logo"><img src={img} alt="" className='logotip' />
+          {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<img src={kotta2} alt="" />)}
+           
+            
         </div>
   {/* {this.state.page} */}
     <div className="form">
@@ -41,7 +43,9 @@ export default class Login extends Component {
       <div className="chekbox">
       <input className='radio' type="radio" /><span>Запомнить меня</span></div>
       <div className="line"></div>
-      <span>Войти с помощью</span>
+      <div className="voyti">
+        <h1>Войти с помощью</h1>
+      </div>
      <div className="img">
      <div className="face">
         <img src={face} alt="" />

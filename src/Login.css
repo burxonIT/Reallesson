@@ -42,14 +42,7 @@ flex-wrap: wrap;
     border-radius: 25px;
     position: relative;
 }
-span{
-    font-family: 'inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 40px;
-    color: #000000;
-}
+
 .input{
     width: 70%;
     height: 50px;
@@ -103,7 +96,10 @@ span{
 }
 .img{
     display: flex;
-
+    margin: auto;
+    width:200px;
+    justify-content: space-around;
+    padding-bottom: 100px;
 }
 .face{
     width: 50px;
@@ -137,15 +133,35 @@ span{
     border: 1px solid #FF0064;
     width: 80%;
     margin: auto;
+    
 }
 .chekbox{
     display: flex;
     align-items: center ;
     margin-left: 70px;
     margin-top: 40px;
+    margin-bottom: 50px;
+}
+.chekbox span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
 }
 .radio{
     width: 40px;
     height: 40px;
     align-items: center;
+    background-color: #2C7F5B;
 }
+.voyti h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}  
