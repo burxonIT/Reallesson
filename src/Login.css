@@ -1,12 +1,151 @@
 .asosiy{
 display: flex;
+width: 100%;
+flex-wrap: wrap;    
 }
 .logo{
     width: 50%;
 }
+.logotip{
+    width: 40%;
+    margin-left: 10%;
+}
 .form{
     width: 50%;
 }
-.asosiy{
+.asosiy_form{
     background: #C2EDF4;
+    position: relative;
+    z-index: 12;
+    margin-top: -20px;
+}
+.butt1{
+    width: 50%;
+    height: 70px;
+    background: #C2EDF4;
+    border: none;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.butt2{
+    width: 50%;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+}
+span{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+.input{
+    width: 70%;
+    height: 50px;
+    border-radius: 45px;
+    margin: auto;
+    display: flex;
+    border: none;
+
+}
+.pochta{
+    margin-left: 70px;
+    padding-top: 50px;
+}
+.parol{
+    margin-left: 70px;
+}
+.katta{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pochta label{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+.pochta input{
+    width: 80%;
+    height: 50px;
+    border-radius: 45px;
+    border: none;
+    
+}
+.parol label{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+    
+}
+.parol input{
+    width: 80%;
+    height: 50px;
+    border-radius: 45px;
+    border: none;
+}
+.img{
+    display: flex;
+
+}
+.face{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+.google{
+    width: 50px;
+    height: 50px;
+    background-color: white; 
+    border-radius: 50%;
+}
+.face img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 5px;
+}
+.google img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 5px;
+}
+.line{
+    border: 1px solid #FF0064;
+    width: 80%;
+    margin: auto;
+}
+.chekbox{
+    display: flex;
+    align-items: center ;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.radio{
+    width: 40px;
+    height: 40px;
+    align-items: center;
 }
