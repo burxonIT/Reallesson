@@ -20,15 +20,17 @@ export default class Login extends Component {
     return (
       <div className="asosiy">
         <div className="logo"><img src={img} alt="" className='logotip' />
-          {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<img src={kotta2} alt="" />)}
+          {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<img src={kotta2} alt="" className='rimg'/>)}
            
             
         </div>
   {/* {this.state.page} */}
     <div className="form">
         <div className="all_button">
-            <button className='butt1' onClick={()=>{this.setState({page:1})}}>Вход</button>
-            <button className='butt2' onClick={()=>{this.setState({page:2})}}>Регистрация</button>
+            <button style={this.state.page===1?
+            {background:'#C2EDF4'}:{background:'white'}} className='butt1' onClick={()=>{this.setState({page:1})}}>Вход</button>
+            <button style={this.state.page===1?
+            {background:'white'}:{background:'#C2EDF4'}} className='butt2' onClick={()=>{this.setState({page:2})}}>Регистрация</button>
         </div>
     <div className="asosiy_form">
    {this.state.page===1?(<div className="login">
@@ -54,7 +56,27 @@ export default class Login extends Component {
         <img src={google} alt="" />
       </div>
      </div>
-   </div>):(<div className="registratsiya">registratsiya</div>)}
+   </div>):(<div className="registratsiya">
+   <div className="pochta">
+      <label htmlFor="">Почта/номер телефона</label>
+      <input type="text" />
+    </div>
+      <div className="parol">
+        <label htmlFor="">Пароль</label><br />
+        <input type="text" />
+      </div>
+      <div className="povtarite_parol">
+        <label htmlFor="">Повторите пароль</label><br />
+        <input type="text" />
+      </div>
+      <div className="chekbox">
+      <input className='radio' type="radio" /><span>Согласен с условиями</span></div>
+      <div className="butt">
+        <button className='ustoz'>Я учитель</button>
+        <button className='oquvchi'>Я ученик</button>
+      </div>
+
+   </div>)}
             
             
         </div>

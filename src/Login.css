@@ -4,14 +4,14 @@ width: 100%;
 flex-wrap: wrap;    
 }
 .logo{
-    width: 50%;
+    width: 660px;
 }
 .logotip{
     width: 40%;
     margin-left: 10%;
 }
 .form{
-    width: 50%;
+    width: 666px;
 }
 .asosiy_form{
     background: #C2EDF4;
@@ -23,7 +23,7 @@ flex-wrap: wrap;
     width: 50%;
     height: 70px;
     background: #C2EDF4;
-    border: none;
+    border: 1px solid grey;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: relative;
@@ -37,10 +37,18 @@ flex-wrap: wrap;
 
 .butt2{
     width: 50%;
-    height: 60px;
-    border: none;
-    border-radius: 25px;
+    height: 70px;
+    background:#C2EDF4;
+    border: 1px solid grey;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
 }
 
 .input{
@@ -59,11 +67,20 @@ flex-wrap: wrap;
 .parol{
     margin-left: 70px;
 }
+.povtarite_parol{
+    margin-left: 70px;
+}
 .katta{
     width: 100%;
     margin-top: 50px;
 }
-
+/* .katta img{
+    width: 100%;
+} */
+.rimg{
+    width: 100%;
+    margin-top: 50px;
+}
 .pochta label{
     font-family: 'inter';
     font-style: normal;
@@ -89,6 +106,21 @@ flex-wrap: wrap;
     
 }
 .parol input{
+    width: 80%;
+    height: 50px;
+    border-radius: 45px;
+    border: none;
+}
+.povtarite_parol label{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+    
+}
+.povtarite_parol input{
     width: 80%;
     height: 50px;
     border-radius: 45px;
@@ -165,3 +197,87 @@ flex-wrap: wrap;
     text-align: center;
     color: #000000;
 }  
+.ustoz{
+    width: 200px;
+    height: 40px;
+    border-radius: 45px;
+    border: none;
+    color: black;
+    margin-top: 20px !important;
+}
+.oquvchi{
+    width: 200px;
+    height: 40px;
+    border-radius: 45px;
+    border: none;
+    background-color: #03975C;
+    color: white;
+    margin-top: 20px !important;
+}
+.butt{
+    width: 70%;
+   display: flex;
+   margin: auto;
+   align-items: center;
+   justify-content: space-around;
+   padding-bottom: 100px;
+   flex-wrap: wrap;
+   
+}
+@media(max-width:1325px){
+    .logotip{
+
+    }
+    .katta{
+        display: none;
+    }
+    .rimg{
+        display: none;
+    }
+    .form{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media(max-width:900px){
+    .form{
+        width: 80%;
+    }
+}
+@media(max-width:500px){
+    .form{
+        width: 90%;
+    }
+    .butt1 {
+        font-size: 23px;
+    }
+    .butt2{
+        font-size: 20px;
+    }
+    .pochta{
+        font-size:20px;
+        margin-left: 30px;
+    }
+    .pochta input{
+        height: 35px;
+    }
+    .parol{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .parol input{
+        height: 35px;
+    }
+    .chekbox{
+        margin-left: 30px;
+        font-size: 20px;   
+    }
+    .povtarite_parol{
+        font-size: 20px;
+        margin-left: 30px;
+        
+    }
+    .povtarite_parol input{
+        height: 35px;
+    }
+}
