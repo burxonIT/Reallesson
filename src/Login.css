@@ -288,7 +288,8 @@ flex-wrap: wrap;
     top: 0px;
     z-index: 1000;
     background-repeat: no-repeat !important;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif");
+    background: url("https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+    background-color: blue;
 }
 .aa h1{
     margin-left: 80%;
