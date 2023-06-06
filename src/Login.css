@@ -80,6 +80,7 @@ flex-wrap: wrap;
 .rimg{
     width: 100%;
     margin-top: 50px;
+    
 }
 .pochta label{
     font-family: 'inter';
@@ -225,9 +226,6 @@ flex-wrap: wrap;
    
 }
 @media(max-width:1325px){
-    .logotip{
-
-    }
     .katta{
         display: none;
     }
@@ -280,4 +278,31 @@ flex-wrap: wrap;
     .povtarite_parol input{
         height: 35px;
     }
+}
+.aa{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 5%;
+    top: 0px;
+    z-index: 1000;
+    background-repeat: no-repeat !important;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/5/5a/Animated_Wallpaper_Windows_10_-_Wallpaper_Engine.gif");
+}
+.aa h1{
+    margin-left: 80%;
+    color: white;
+    margin-top: -20px;
+    margin-top: 550px;
+}
+#progressBar{
+    margin-left: 5%;
+    width: 90%;
+}
+.bb{
+    display: flex;
+    text-align: center !important;
+    margin-top: 12% !important;
+    margin: auto;
 }

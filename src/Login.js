@@ -10,6 +10,23 @@ export default class Login extends Component {
     data:"salom",
     page:1
   }
+  none=()=>{
+  document.querySelector(".aa").style="display:none"
+  
+  }
+  componentDidMount(){
+  setTimeout(()=>{
+document.querySelector(".aa").style="display:none"
+  }, 12000);
+  var timeleft = 10;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 1000);
+}
 //   plus=()=>{
 //     this.setState({page:this.state.page+1})
 //    }
@@ -19,6 +36,7 @@ export default class Login extends Component {
   render() {
     return (
       <div className="asosiy">
+        <div className="aa"><h1 onClick={()=>this.none()}>пропустить</h1><progress value="0" max="10" id="progressBar"></progress></div>
         <div className="logo"><img src={img} alt="" className='logotip' />
           {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<img src={kotta2} alt="" className='rimg'/>)}
            
