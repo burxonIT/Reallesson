@@ -288,14 +288,16 @@ flex-wrap: wrap;
     top: 0px;
     z-index: 1000;
     background-repeat: no-repeat !important;
-    background: url("https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+
+    
     background-color: blue;
 }
 .aa h1{
     margin-left: 80%;
     color: white;
     margin-top: -20px;
-    margin-top: 550px;
+    margin-top: 100px;
+    z-index: 121;
 }
 #progressBar{
     margin-left: 5%;
@@ -305,5 +307,13 @@ flex-wrap: wrap;
     display: flex;
     text-align: center !important;
     margin-top: 12% !important;
+    margin: auto;
+    
+}
+.imgaa{
+    width: 70%;
+    height: 70%;
+    margin-top: 50px !important;
+    display: flex;
     margin: auto;
 }

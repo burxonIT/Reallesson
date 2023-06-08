@@ -12,7 +12,7 @@ export default class Login extends Component {
   }
   none=()=>{
   document.querySelector(".aa").style="display:none"
-  
+
   }
   componentDidMount(){
   setTimeout(()=>{
@@ -36,9 +36,10 @@ var downloadTimer = setInterval(function(){
   render() {
     return (
       <div className="asosiy">
-        <div className="aa"><h1 onClick={()=>this.none()}>пропустить</h1><progress value="0" max="10" id="progressBar"></progress></div>
+        
+        <div className="aa"><img className='imgaa' src="https://i.gifer.com/embedded/download/4seJ.gif" alt="" /><h1 onClick={()=>this.none()}>пропустить</h1><progress value="0" max="10" id="progressBar"></progress></div>
         <div className="logo"><img src={img} alt="" className='logotip' />
-          {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<img src={kotta2} alt="" className='rimg'/>)}
+          {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<div><img src={kotta2} alt="" className='rimg'/></div>)}
            
             
         </div>
