@@ -288,14 +288,19 @@ flex-wrap: wrap;
     top: 0px;
     z-index: 1000;
     background-repeat: no-repeat !important;
-    background: url("https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
     background-color: blue;
+}
+.siuu{
+    /* width: 50%; */
+    height: 90%;
+    display: flex;
+    margin: auto;
 }
 .aa h1{
     margin-left: 80%;
     color: white;
     margin-top: -20px;
-    margin-top: 550px;
+    /* margin-top: 550px; */
 }
 #progressBar{
     margin-left: 5%;
