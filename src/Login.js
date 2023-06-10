@@ -36,12 +36,9 @@ var downloadTimer = setInterval(function(){
   render() {
     return (
       <div className="asosiy">
-<<<<<<< HEAD
-        <div className="aa"><img className='siuu' src="https://media.tenor.com/yIWsA_YgyiMAAAAM/sarhosternal-ronaldo.gif" alt="" /><h1 onClick={()=>this.none()}>пропустить</h1><progress value="0" max="10" id="progressBar"></progress></div>
-=======
-        
+        {/* <div className="aa"><img className='siuu' src="https://media.tenor.com/yIWsA_YgyiMAAAAM/sarhosternal-ronaldo.gif" alt="" /><h1 onClick={()=>this.none()}>пропустить</h1><progress value="0" max="10" id="progressBar"></progress></div> */}
         <div className="aa"><img className='imgaa' src="https://i.gifer.com/embedded/download/4seJ.gif" alt="" /><h1 onClick={()=>this.none()}>пропустить</h1><progress value="0" max="10" id="progressBar"></progress></div>
->>>>>>> e4ae21d4143feb5360472848ebcda7cd99178bc7
+
         <div className="logo"><img src={img} alt="" className='logotip' />
           {this.state.page===1?(<img src={kotta} alt=""className='katta' />):(<div><img src={kotta2} alt="" className='rimg'/></div>)}
            
